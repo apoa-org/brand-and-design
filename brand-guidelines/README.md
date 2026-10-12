@@ -5,3 +5,7 @@ This directory holds visual branding standards; the organizational narrative com
 **Current content baseline:** Australian Property Owners Alliance (APOA); 连接 · 分享 · 改变 / Connect · Share · Make a Difference. New Chinese-facing materials gradually use 澳洲房主联盟; leave historical materials unchanged.
 
 Logo rules, palette, typography, accessibility, spacing and media templates require their own approved design specifications. Do not treat this placeholder as authorization to redesign existing assets. See [logo asset inventory](../logos/ASSET-INVENTORY.md) and [current logos](../logos/README.md).
+
+## Editorial and transition rules
+
+- [Brand naming and website transition rules (2026-10-12)](BRAND-NAMING-WEBSITE-TRANSITION-2026-10-12.md) — Chinese terminology, bilingual editing rules, gradual website transition and historical asset protection.
