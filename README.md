@@ -12,7 +12,7 @@ The [approved APOA Organization Master 2027](https://github.com/apoa-org/organiz
 
 ## Contents
 
-- [Brand guidelines](brand-guidelines/README.md) — identity usage and future design specifications
+- [Brand guidelines](brand-guidelines/README.md) — identity usage, [2026 naming and website transition rules](brand-guidelines/BRAND-NAMING-WEBSITE-TRANSITION-2026-10-12.md), and future design specifications
 - [Logos](logos/README.md) — current assets, provenance and editable sources
 - [UI](ui/README.md) — interface guidance and approved references
 - `events/` — historic and reusable event visual assets
