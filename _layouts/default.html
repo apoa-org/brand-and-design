@@ -27,6 +27,7 @@
       <a href="{{ '/logo/' | relative_url }}" {% if page.nav == 'logo' %}aria-current="page"{% endif %}>Logo</a>
       <a href="{{ '/colors/' | relative_url }}" {% if page.nav == 'colors' %}aria-current="page"{% endif %}>色彩</a>
       <a href="{{ '/typography/' | relative_url }}" {% if page.nav == 'typography' %}aria-current="page"{% endif %}>字体</a>
+      <a href="{{ '/downloads/' | relative_url }}" {% if page.nav == 'downloads' %}aria-current="page"{% endif %}>下载</a>
     </nav>
   </div>
 </header>
@@ -52,7 +53,7 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div><strong>APOA · Australian Property Owners Alliance</strong><p>连接 · 分享 · 改变</p></div>
-    <div class="footer-links"><a href="https://github.com/apoa-org/brand-and-design">GitHub 源码</a><a href="https://apoa-org.github.io/organization-handbook/">社区图书馆</a><a href="https://apoa.org.au/">APOA 官网</a></div>
+    <div class="footer-links"><a href="{{ '/downloads/' | relative_url }}">素材下载</a><a href="https://github.com/apoa-org/brand-and-design">GitHub 源码</a><a href="https://apoa-org.github.io/organization-handbook/">社区图书馆</a><a href="https://apoa.org.au/">APOA 官网</a></div>
   </div>
 </footer>
 </body>
