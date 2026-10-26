@@ -1,0 +1,27 @@
+- key: APOA-01-Primary
+  title: 主标志 / Primary Logo
+  usage: 正式封面、组织介绍、一般品牌展示
+- key: APOA-02-Chinese
+  title: 中文标志 / Chinese Logo
+  usage: 中文海报、中文社区传播
+- key: APOA-03-Bilingual
+  title: 双语标志 / Bilingual Logo
+  usage: 中英文同时出现的场合
+- key: APOA-04-Symbol
+  title: 房屋图形 / Symbol Only
+  usage: 社媒头像、图标、小面积应用
+- key: APOA-05-Wordmark
+  title: APOA 字标 / Wordmark
+  usage: 已有图形识别、空间有限的位置
+- key: APOA-06-Website
+  title: 网站组合 / Website Lockup
+  usage: 需要突出 apoa.org.au 的场景
+- key: APOA-07-Mono-Black
+  title: 单色黑 / Mono Black
+  usage: 黑白印刷、浅色背景
+- key: APOA-08-Reverse-White
+  title: 反白版 / Reverse White
+  usage: 深色背景、深色服装或展板
+- key: APOA-09-Horizontal
+  title: 横向版 / Horizontal Logo
+  usage: 网站页眉、PPT 内页、横幅
