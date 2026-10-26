@@ -1,0 +1,15 @@
+title: APOA 品牌手册
+description: Australian Property Owners Alliance — Brand Manual V1
+url: "https://apoa-org.github.io"
+baseurl: "/brand-and-design"
+lang: zh-CN
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins: []
+exclude:
+  - README.md
+  - releases
+  - events
+  - media
