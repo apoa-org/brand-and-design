@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f8fb">
+  <meta name="description" content="APOA 品牌手册 V1：Logo、品牌色、字体与基础使用规范。">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}APOA 品牌手册</title>
+  <link rel="icon" href="{{ '/logos/current/apoa-symbol-primary.png' | relative_url }}" type="image/png">
+  <link rel="stylesheet" href="{{ '/assets/brand-pages.css' | relative_url }}">
+  <script defer src="{{ '/assets/brand-pages.js' | relative_url }}"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳转到正文 / Skip to content</a>
+<header class="site-header">
+  <div class="head-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="返回 APOA 品牌手册首页">
+      <img class="brand-mark" src="{{ '/logos/current/apoa-symbol-primary.png' | relative_url }}" width="49" height="39" alt="" decoding="async">
+      <span class="brand-names">
+        <span class="brand-title">APOA 品牌手册</span>
+        <span class="brand-sub">BRAND MANUAL</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="{{ '/' | relative_url }}" {% if page.nav == 'home' %}aria-current="page"{% endif %}>首页</a>
+      <a href="{{ '/manual/' | relative_url }}" {% if page.nav == 'manual' %}aria-current="page"{% endif %}>手册</a>
+      <a href="{{ '/logo/' | relative_url }}" {% if page.nav == 'logo' %}aria-current="page"{% endif %}>Logo</a>
+      <a href="{{ '/colors/' | relative_url }}" {% if page.nav == 'colors' %}aria-current="page"{% endif %}>色彩</a>
+      <a href="{{ '/typography/' | relative_url }}" {% if page.nav == 'typography' %}aria-current="page"{% endif %}>字体</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% unless page.nav == 'home' %}
+  <div class="page-heading wrap">
+    <p class="eyebrow">APOA / BRAND FOUNDATION / V1.0</p>
+    <h1>{{ page.title }}</h1>
+    <p class="page-lede">{{ page.lede }}</p>
+    <div class="page-actions">
+      <span class="status">● 已确认 · 2026-10-27</span>
+      {% if page.source_path %}<a href="https://github.com/apoa-org/brand-and-design/blob/main/{{ page.source_path }}" target="_blank" rel="noopener noreferrer">查看 GitHub Markdown 原文 ↗</a>{% endif %}
+      <div class="reading-controls" aria-label="阅读字号">
+        <button type="button" data-font="-1" aria-label="缩小正文字体">A−</button>
+        <button type="button" data-font="1" aria-label="放大正文字体">A+</button>
+        <button type="button" data-font="0" aria-label="恢复默认字号">重置</button>
+      </div>
+    </div>
+  </div>
+{% endunless %}
+<div class="content-frame wrap {% if page.nav == 'home' %}home-frame{% else %}reading-frame{% endif %}">{{ content }}</div>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><strong>APOA · Australian Property Owners Alliance</strong><p>连接 · 分享 · 改变</p></div>
+    <div class="footer-links"><a href="https://github.com/apoa-org/brand-and-design">GitHub 源码</a><a href="https://apoa-org.github.io/organization-handbook/">社区图书馆</a><a href="https://apoa.org.au/">APOA 官网</a></div>
+  </div>
+</footer>
+</body>
+</html>
