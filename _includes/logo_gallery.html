@@ -1,0 +1,20 @@
+<div class="logo-assets-grid" aria-label="APOA 九种 Logo 标准导出">
+{% for asset in site.data.logo_assets %}
+  {% assign svg_url = '/downloads/logos/' | append: asset.key | append: '.svg' %}
+  {% assign png_url = '/downloads/logos/' | append: asset.key | append: '.png' %}
+  <article class="logo-asset-card">
+    <div class="logo-asset-preview {% if asset.key == 'APOA-08-Reverse-White' %}is-dark{% endif %} {% if asset.key == 'APOA-09-Horizontal' %}is-horizontal{% endif %}">
+      <img src="{{ svg_url | relative_url }}" alt="{{ asset.title }}" loading="lazy" decoding="async">
+    </div>
+    <div class="logo-asset-info">
+      <span class="logo-asset-number">0{{ forloop.index }} / LOGO</span>
+      <h3>{{ asset.title }}</h3>
+      <p>{{ asset.usage }}</p>
+      <div class="asset-buttons">
+        <a class="asset-download" href="{{ png_url | relative_url }}" download="{{ asset.key }}.png" aria-label="下载 {{ asset.title }} 的透明 PNG 版本">下载 PNG <span aria-hidden="true">↓</span></a>
+        <a class="asset-download secondary" href="{{ svg_url | relative_url }}" download="{{ asset.key }}.svg" aria-label="下载 {{ asset.title }} 的矢量 SVG 版本">下载 SVG <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>
