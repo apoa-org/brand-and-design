@@ -24,6 +24,10 @@ The public, mobile-friendly **APOA Brand Manual V1** website is prepared using J
 
 **One-time activation:** Repository Settings → Pages → Build and deployment → Deploy from a branch → Branch `main` / `/ (root)` → Save. If an organization policy blocks access to Pages settings, a repository administrator needs to enable it. Check the live URL after GitHub finishes publishing.
 
+## Downloads Centre
+
+The public [APOA Brand Downloads Centre](https://apoa-org.github.io/brand-and-design/downloads/) offers one-click downloads of the **corrected 12-slide PPT template** and **all nine PDF-vector-derived Logo variants** in SVG and transparent PNG, with visual previews and use-case guidance. Sources and production notes: [downloads/README.md](downloads/README.md) and [Logo export provenance](downloads/logos/README.md).
+
 ## Contents
 
 - [Brand guidelines](brand-guidelines/README.md) — identity usage, [2026 naming and website transition rules](brand-guidelines/BRAND-NAMING-WEBSITE-TRANSITION-2026-10-12.md), and future design specifications
