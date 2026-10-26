@@ -4,7 +4,14 @@ This directory holds visual branding standards; the organizational narrative com
 
 **Current content baseline:** Australian Property Owners Alliance (APOA); 连接 · 分享 · 改变 / Connect · Share · Make a Difference. New Chinese-facing materials gradually use 澳洲房主联盟; leave historical materials unchanged.
 
-Logo rules, palette, typography, accessibility, spacing and media templates require their own approved design specifications. Do not treat this placeholder as authorization to redesign existing assets. See [logo asset inventory](../logos/ASSET-INVENTORY.md) and [current logos](../logos/README.md).
+## Approved foundation · 2026-10-27
+
+- [APOA Brand Manual V1 — 基础版](APOA-Brand-Manual-V1.md)
+- [Brand Colors V1](APOA-Brand-Colors-V1.md)
+- [Typography V1](APOA-Typography-V1.md)
+- [Logo Usage Guidelines V1](APOA-Logo-Usage-Guidelines-V1.md)
+
+This foundation covers naming, nine logo variants, colour, typography and basic usage. Detailed application templates and print specifications are reserved for a future Brand Applications Manual. Existing logo assets remain unchanged; see the [logo asset inventory](../logos/ASSET-INVENTORY.md) and [current logos](../logos/README.md).
 
 ## Editorial and transition rules
 
