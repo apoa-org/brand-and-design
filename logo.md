@@ -7,8 +7,10 @@ source_path: brand-guidelines/APOA-Logo-Usage-Guidelines-V1.md
 permalink: /logo/
 ---
 <div class="logo-note"><strong>使用原则：</strong>直接使用 APOA 的原始 Logo 资产，不重新绘制、拉伸或用 AI 生成相似图形。彩色版本的四个小圆点必须是白色实心图形。</div>
-<div class="logo-current-preview"><img src="{{ '/logos/current/apoa-symbol-primary.png' | relative_url }}" alt="APOA 红蓝双房屋图形"></div>
-<p class="logo-current-caption">图示为仓库现行的 APOA 房屋标志参考图。九画板的最新版导出资产尚待独立发布，实际制作请使用已确认的 Affinity Logo Master。</p>
+<div class="logo-guidance-preview">
+<p>以下均为从经确认的 Affinity 九页 PDF 母版导出的矢量与透明图片。按照场景选择，点击即可下载。<a href="{{ '/downloads/' | relative_url }}">打开完整素材下载中心 ↗</a></p>
+{% include logo_gallery.html %}
+</div>
 <div class="article-sheet">
 {% capture logo_text %}{% include_relative brand-guidelines/APOA-Logo-Usage-Guidelines-V1.md %}{% endcapture %}
 {{ logo_text | markdownify }}
