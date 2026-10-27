@@ -27,6 +27,7 @@
       <a href="{{ '/logo/' | relative_url }}" {% if page.nav == 'logo' %}aria-current="page"{% endif %}>Logo</a>
       <a href="{{ '/colors/' | relative_url }}" {% if page.nav == 'colors' %}aria-current="page"{% endif %}>色彩</a>
       <a href="{{ '/typography/' | relative_url }}" {% if page.nav == 'typography' %}aria-current="page"{% endif %}>字体</a>
+      <a href="{{ '/applications/' | relative_url }}" {% if page.nav == 'applications' %}aria-current="page"{% endif %}>应用</a>
       <a href="{{ '/downloads/' | relative_url }}" {% if page.nav == 'downloads' %}aria-current="page"{% endif %}>下载</a>
     </nav>
   </div>
@@ -38,7 +39,7 @@
     <h1>{{ page.title }}</h1>
     <p class="page-lede">{{ page.lede }}</p>
     <div class="page-actions">
-      <span class="status">● 已确认 · 2026-10-27</span>
+      {% if page.nav == 'applications' %}<span class="status">● 栏目结构已确定 · 内容持续补充</span>{% elsif page.nav == 'downloads' %}<span class="status">● 已发布素材 · 可直接下载</span>{% else %}<span class="status">● 已确认 · 2026-10-27</span>{% endif %}
       {% if page.source_path %}<a href="https://github.com/apoa-org/brand-and-design/blob/main/{{ page.source_path }}" target="_blank" rel="noopener noreferrer">查看 GitHub Markdown 原文 ↗</a>{% endif %}
       <div class="reading-controls" aria-label="阅读字号">
         <button type="button" data-font="-1" aria-label="缩小正文字体">A−</button>
@@ -53,7 +54,7 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div><strong>APOA · Australian Property Owners Alliance</strong><p>连接 · 分享 · 改变</p></div>
-    <div class="footer-links"><a href="{{ '/downloads/' | relative_url }}">素材下载</a><a href="https://github.com/apoa-org/brand-and-design">GitHub 源码</a><a href="https://apoa-org.github.io/organization-handbook/">社区图书馆</a><a href="https://apoa.org.au/">APOA 官网</a></div>
+    <div class="footer-links"><a href="{{ '/applications/' | relative_url }}">应用模板</a><a href="{{ '/downloads/' | relative_url }}">素材下载</a><a href="https://github.com/apoa-org/brand-and-design">GitHub 源码</a><a href="https://apoa-org.github.io/organization-handbook/">社区图书馆</a><a href="https://apoa.org.au/">APOA 官网</a></div>
   </div>
 </footer>
 </body>
