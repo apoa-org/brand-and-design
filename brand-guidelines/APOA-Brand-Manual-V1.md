@@ -82,9 +82,9 @@
 - `05-Templates/APOA-Presentation-Template-V1.pptx`：现有 PPT 模板。
 - `04-Brand-Manual/`：手册及后续版本。
 
-GitHub `apoa-org/brand-and-design` 公开存放此手册及三份基础规范。仓库 `logos/current/` 与 `logos/source/` 已有历史 Logo 资产，**不能因为本手册发布就自动视为新九画板导出资产已全部发布**。应保留历史版本，正式导出包另行核对后发布。
+GitHub `apoa-org/brand-and-design` 公开存放本手册及三份基础规范。**[品牌素材下载中心](https://apoa-org.github.io/brand-and-design/downloads/)** 已提供九种 Logo 的 SVG／透明 PNG，以及你确认过的 12 页 PPT V1 模板。`downloads/logos/` 是从九页 PDF 矢量母版转换的日常使用导出；仓库 `logos/current/` 与 `logos/source/` 保留历史 Logo 资产，没有被覆盖。
 
-**待同步的微小差异：**2026-10-15 导出的九页 PDF 中，彩色 Logo 的英文 APOA 字标仍采用旧近黑色 `#231F20`；目前批准的黑色为 `#000000`。下一轮从 Affinity 正式输出 Logo 资产时核对并同步，不改变原始造型。
+**源文件同步提醒：**2026-10-15 九页 PDF 中部分英文字标仍为旧近黑色 `#231F20`；2026-10-27 发布的 SVG／PNG 已按照批准的 `#000000` 标准黑色输出，反白版另已去除展示黑底。下次编辑 Affinity `.af` 母版时仍须同步核对颜色；大批量印刷以母版与样张为准。
 
 ## 7. 边界与扩展路线
 
@@ -93,3 +93,5 @@ GitHub `apoa-org/brand-and-design` 公开存放此手册及三份基础规范。
 **未来另做 APOA Brand Applications Manual｜品牌应用扩展手册：** 社媒头像／封面／帖子、活动海报、横幅／旗帜、纸袋／服装／帽子、网站 UI 与表单、不同介质的具体尺寸／生产规格等，均在实际测试或设计完成后逐步添加。
 
 **版本记录：**2026-10-27 V1.0 — 汇总三份已确认基础规范；不追溯修改历史物料，未完成的应用设计不纳入正式标准。
+
+**2026-10-27 资产更新：**上线 [素材下载中心](https://apoa-org.github.io/brand-and-design/downloads/)，新增九组 PNG／SVG 和 PPT V1 文件；基础品牌规范本身未改变。
