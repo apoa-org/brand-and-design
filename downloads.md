@@ -62,6 +62,6 @@ permalink: /downloads/
   </div>
 </section>
 <section class="note-strip" aria-label="后续扩展说明">
-  <strong>后续还会增加</strong>
-  <p>活动海报、社媒模板、志愿者服装、礼品袋、旗帜等资产，会在确定最终设计并实际验收后分批进入下载中心。历史物料无需重新制作。</p>
+  <strong>更多素材 · 准备中</strong>
+  <p>Word 文档、信纸信封、机构介绍、宣传册、易拉宝、背景板、活动海报和社媒模板等，已列入 <a href="{{ '/applications/' | relative_url }}">品牌应用目录</a>。这些素材待正式完成后才会出现在下载中心。历史物料无需重新制作。</p>
 </section>
