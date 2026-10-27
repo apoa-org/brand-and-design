@@ -39,4 +39,4 @@ These values are the **approved digital colour values**. Do not change the exist
 
 
 **Notes:** These RGB and print-management decisions were confirmed in the APOA Brand Kit working discussion. The print guidance defines a practical approach, not guaranteed output or a fixed CMYK conversion.
-**Asset consistency note (2026-10-27):** The nine-page PDF export dated 2026-10-15 still uses legacy near-black `#231F20` in colour-variant APOA wordmarks. The approved standard is `#000000`; verify and regenerate future official logo exports from the Affinity source before treating them as colour-compliant delivery assets.
+**Asset consistency note (2026-10-27):** The nine-page PDF export dated 2026-10-15 still uses legacy near-black `#231F20` in colour-variant APOA wordmarks. The approved standard is `#000000`; 2026-10-27 web-download SVG/PNG exports now apply `#000000`, while the editable Affinity source still requires a colour-sync check for future edits and print production.
