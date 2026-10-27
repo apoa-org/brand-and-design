@@ -13,6 +13,10 @@ This directory holds visual branding standards; the organizational narrative com
 
 This foundation covers naming, nine logo variants, colour, typography and basic usage. Detailed application templates and print specifications are reserved for a future Brand Applications Manual. Existing logo assets remain unchanged; see the [logo asset inventory](../logos/ASSET-INVENTORY.md) and [current logos](../logos/README.md).
 
+## Brand Hub architecture
+
+- [Brand & Design Hub Information Architecture V1](APOA-Brand-Hub-Structure-V1.md) — the published Applications directory, Downloads Centre and future-template status rules.
+
 ## Editorial and transition rules
 
 - [Brand naming and website transition rules (2026-10-12)](BRAND-NAMING-WEBSITE-TRANSITION-2026-10-12.md) — Chinese terminology, bilingual editing rules, gradual website transition and historical asset protection.
